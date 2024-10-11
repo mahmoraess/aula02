@@ -18,8 +18,7 @@ export default function App() {
       <h1>Usuário</h1>
       <ul>
       <h2>{usuarios?.gender}</h2>
-      <p>usuarios.name</p>
-      <p></p>
+      <p>{usuarios?.email}</p>
       </ul>
     </>
   );
